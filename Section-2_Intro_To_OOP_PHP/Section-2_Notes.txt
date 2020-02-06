@@ -1,0 +1,41 @@
+> What Is OOP?
+	>> Object Oriented Programming
+	>> Type of Software design / methodology
+	>> Based on objects instead of functions & procedures
+	>> Data structure becomes an object with properties & methods
+	>> PHP can be procedural or OOP
+	
+> Why Use OOP?
+	>> Cleaner and better organized
+	>> Modular structure
+	>> Better for teams
+	>> Re-usability
+	>> Easier to maintain
+	
+> Objects vs Classes
+	>> A class is like a blueprint for an object
+	>> There is one class which includes properties & methods
+    >> Multiple objects can be instantiated from the class
+	
+> Magic Methods
+	>> __construct
+	>> __destruct
+	>> __get
+    >> __set
+	
+> Magic Constant
+    >> __CLASS__
+
+> Access Modifiers
+    >> Public - You can access them anywhere
+    >> Private - Only access these within the class they are in
+    >> Protected - Access it from within the class or any class that extends it
+
+> Getters
+    >> A “getter” allows to you to retrieve or “get” a given property.
+	
+> Setters
+    >> A “setter” allows you to “set” the value of a given property.
+
+> Static Methods & Properties
+    >> Static Function in PHP. In certain cases, it is very handy to access methods and properties in terms of a class rather than an object. This can be done with the help of static keyword. Any method declared as static is accessible without the creation of an object.
