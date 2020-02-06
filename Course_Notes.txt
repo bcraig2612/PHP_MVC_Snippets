@@ -39,3 +39,27 @@
 
 > Static Methods & Properties
     >> Static Function in PHP. In certain cases, it is very handy to access methods and properties in terms of a class rather than an object. This can be done with the help of static keyword. Any method declared as static is accessible without the creation of an object.
+
+> What Is MVC?
+	>> Model View Controller (MVC)
+	>> Main purpose is to separate functionality into 3 different sections.
+	>> Software architectural design pattern
+	>> One of the most frequently used patterns
+	>> Separates application functions
+	>> Promotes organization
+> The Model
+	>> Data related logic
+	>> Interacts with the database (SELECT, INSERT, UPDATE, DELETE)
+	>> Communicated with Controller
+	>> Can sometimes update the View
+> The View
+	>> What the user sees in the browser (UI)
+	>> Usually consists of HTML/CSS
+	>> Communicates with the Controller
+	>> Can be passed dynamic values from Controller
+> The Controller
+	>> Receives Input From The URL, Form, View, etc.
+	>> Processes requests (GET, PUT, POST, DELETE)
+	>> Gets data from the Model
+	>> Passes data to the View
+	
