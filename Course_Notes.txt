@@ -63,3 +63,7 @@
 	>> Gets data from the Model
 	>> Passes data to the View
 	
+> PDO
+	>> PHP Extension
+	>> PDO --> PHP Data Objects
+	>> Consistent & lean way to access a database
